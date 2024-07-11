@@ -6,8 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="">
+  <meta name="theme-color" content="#10b981">
 
   <link rel="stylesheet" href="https://unpkg.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaiscreen.css">
+
+  <link rel="canonical" href="https://Taslr.github.io" />
+
+  <link rel="shortcut icon" href="/">
 
   
   
@@ -39,15 +44,28 @@
   
 <script src="/js/global.js"></script>
 
-<meta name="generator" content="Hexo 7.3.0"></head>
+<!-- hexo injector head_end start -->
+      <link rel="stylesheet" href="https://unpkg.com/@docsearch/css@3.5.2/dist/style.css">
+      
+<link rel="stylesheet" href="/css/plugins/docsearch.css">
+
+    <!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
 <body>
   <header class="sea-header">
     <nav class="sea-nav-wrap">
-  <h1 class="sea-nav-logo" title="学无止境">
+  <h1 class="sea-nav-logo" title="暮沐笙箫">
     <a href="/">暮沐笙箫</a>
   </h1>
   <div class="sea-nav-menus">
     <div class="sea-menu-pc-wrap">
+  
+    <a
+      class="sea-menu-link"
+      
+      href="/"
+    >
+      主页
+    </a>
   
     <a
       class="sea-menu-link"
@@ -94,10 +112,19 @@
     
       <a
         class="sea-page-categories__item"
-        href="/categories/%E9%9A%8F%E7%AC%94/"
+        href="/categories/other/"
       >
         <i class="sea-font">folder</i>
-        <span class="name">随笔</span>
+        <span class="name">其他</span>
+        <span class="num">1</span>
+      </a>
+    
+      <a
+        class="sea-page-categories__item"
+        href="/categories/life/"
+      >
+        <i class="sea-font">folder</i>
+        <span class="name">生活</span>
         <span class="num">1</span>
       </a>
     
@@ -138,6 +165,14 @@
       <a
         class="sea-menu-link"
         
+        href="/"
+      >
+        主页
+      </a>
+    
+      <a
+        class="sea-menu-link"
+        
         href="/archives/"
       >
         归档
@@ -170,6 +205,11 @@
 
   
   
+      <a class="sea-float-tools-btn" id="sea-search-icon">
+        <i class="sea-font">search</i>
+      </a>
+      <div id="sea-search-input"></div>
+    
 
   
   <div class="sea-float-tools-btn" id="sea-theme-mode">
@@ -192,5 +232,15 @@
 
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-</body>
+<!-- hexo injector body_end start -->
+      <script type="module">
+        import "https://unpkg.com/@docsearch/js@3.5.2/dist/umd/index.js";
+        docsearch({
+          container: '#sea-search-input',
+          appId: '',
+          apiKey: '',
+          indexName: '',
+        });
+      </script>
+    <!-- hexo injector body_end end --></body>
 </html>
